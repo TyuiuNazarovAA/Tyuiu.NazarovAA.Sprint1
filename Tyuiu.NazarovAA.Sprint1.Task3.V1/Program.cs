@@ -1,6 +1,6 @@
-﻿using Tyuiu.NazarovAA.Sprint1.Task2.V7.Lib;
+﻿using Tyuiu.NazarovAA.Sprint1.Task3.V1.Lib;
 
-namespace Tyuiu.NazarovAA.Sprint1.Task2.V7
+namespace Tyuiu.NazarovAA.Sprint1.Task3.V1
 {
     internal class Program
     {
@@ -13,8 +13,8 @@ namespace Tyuiu.NazarovAA.Sprint1.Task2.V7
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #30                                                             *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнил: Назаров Артём Александрович | СППб-25-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -27,12 +27,14 @@ namespace Tyuiu.NazarovAA.Sprint1.Task2.V7
 
             Console.WriteLine("Введите радиус R:");
             int r = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите высоту H:");
+            int h = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.CalculateSquareCircle(r));
+            Console.WriteLine(ds.CylinderVolume(r, h));
         }
     }
 }
