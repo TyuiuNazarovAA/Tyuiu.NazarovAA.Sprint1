@@ -1,6 +1,6 @@
-﻿using Tyuiu.NazarovAA.Sprint1.Task6.V10.Lib;
+﻿using Tyuiu.NazarovAA.Sprint1.Task7.V8.Lib;
 
-namespace Tyuiu.NazarovAA.Sprint1.Task6.V10
+namespace Tyuiu.NazarovAA.Sprint1.Task7.V8
 {
     internal class Program
     {
@@ -12,27 +12,29 @@ namespace Tyuiu.NazarovAA.Sprint1.Task6.V10
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Работа со строками класс String                                   *");
-            Console.WriteLine("* Задание #6                                                              *");
-            Console.WriteLine("* Вариант #10                                                             *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
+            Console.WriteLine("* Задание #7                                                              *");
+            Console.WriteLine("* Вариант #8                                                              *");
             Console.WriteLine("* Выполнил: Назаров Артём Александрович | СППб-25-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу: пользователь вводит текст. Напечатать все слова,    *");
-            Console.WriteLine("* удалив среднюю букву у слов нечетной длины.                             *");
+            Console.WriteLine("* Написать программу, которая вычисляет математическое выражение по       *");
+            Console.WriteLine("* исходным значениям данных, вводимых пользователем.                      *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите строку:");
-            string s = Console.ReadLine();
+            Console.WriteLine("Введите значение X:");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите значение Y:");
+            int y = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.DeleteMiddleLetter(s));
+            Console.WriteLine(ds.Calculate(x, y));
         }
     }
 }
