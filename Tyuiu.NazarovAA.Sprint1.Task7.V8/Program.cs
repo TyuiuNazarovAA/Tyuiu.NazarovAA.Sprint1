@@ -26,9 +26,9 @@ namespace Tyuiu.NazarovAA.Sprint1.Task7.V8
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Введите значение X:");
-            int x = Convert.ToInt32(Console.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите значение Y:");
-            int y = Convert.ToInt32(Console.ReadLine());
+            double y = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
